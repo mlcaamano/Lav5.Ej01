@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matias.ej01_suma.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextResultado"
+        android:layout_width="231dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Name"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.464" />
+
+    <EditText
+        android:id="@+id/editTextSumando1"
+        android:layout_width="59dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Name"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <EditText
+        android:id="@+id/editTextSumando2"
+        android:layout_width="59dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Name"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="227dp"
+        android:layout_height="47dp"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
